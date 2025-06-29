@@ -9,10 +9,10 @@ function App() {
 
 
   return (
-    <>
+    <div className= "card">
      <SignUpForm setToken={setToken} token={token} />
      <Authenticate token={token} setToken={setToken} />
-    </>
+    </div>
   )
 }
 

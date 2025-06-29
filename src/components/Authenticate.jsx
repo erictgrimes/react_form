@@ -19,7 +19,7 @@ export default function Authenticate({ token }) {
       const data = await res.json();
       setSuccessMessage(data.message);
       console.log(data);
-    } catch (error){
+    } catch (error) {
       setError(error.message);
     }
   }
